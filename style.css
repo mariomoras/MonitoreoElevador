@@ -1,0 +1,40 @@
+.animatedDown {
+            position: relative;
+            -webkit-animation-name: example;
+            -webkit-animation-duration: 2s;
+        }
+
+        .animatedUp {
+            position: relative;
+            -webkit-animation-name: example1;
+            -webkit-animation-duration: 2s;
+        }
+
+        @-webkit-keyframes example1 {
+            from {
+                top: 0px;
+            }
+
+            to {
+                top: -70px;
+            }
+        }
+
+
+
+        @-webkit-keyframes example {
+            from {
+                top: 0px;
+            }
+
+            to {
+                top: 70px;
+            }
+        }
+
+        td.spaceEle {
+            background-image: url('content/img/base.png');
+            background-repeat: no-repeat;
+            width: 35px;
+            height: 70px;
+        }
