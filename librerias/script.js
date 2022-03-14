@@ -128,8 +128,9 @@
             }
         }
 
-        //se ejecutan los metodos creados previamente para crear el html
-        crearTablaElevadores(totalElevadores, totalDePisos);
-        crearElevadores(totalElevadores, totalDePisos);
-        //se ejecuta setInterval para realizar una acción cada cierto tiempo
-        let timerId = setInterval(selctElevator, tiempoMov);
+         $(document).ready(function(){//se ejecutan los metodos creados previamente para crear el html
+            crearTablaElevadores(totalElevadores, totalDePisos);
+            crearElevadores(totalElevadores, totalDePisos);
+            //se ejecuta setInterval para realizar una acción cada cierto tiempo
+            let timerId = setInterval(selctElevator, tiempoMov);});
+
